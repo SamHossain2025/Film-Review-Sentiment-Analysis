@@ -8,7 +8,7 @@
 
 - Topics covered: **Natural Language Processing (NLP)**
 - Models used: **Logistic Regression**
-- Skills demonstrated: **Text cleaning, TF-IDF, model tuning, evaluation, error analysis**
+- Skills demonstrated: **Text cleaning, TF-IDF, Error analysis**
 - Expected outcome:
     - **Automatically classify film reviews**
     - **Enable further deployment as a web app**
