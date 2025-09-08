@@ -1,147 +1,8 @@
-# 🎬 Film Review Sentiment Analysis
-**Natural Language Processing (NLP) | Logistic Regression | TF-IDF | Model Evaluation | Python**
-
-This project builds a supervised machine learning pipeline to analyze sentiment in film reviews — classifying each review as either **Positive** or **Negative**. It applies core NLP techniques (text cleaning, TF-IDF) and uses Logistic Regression for classification, with performance evaluation through Accuracy and F1 Score.
-
----
-
-## 📁 Folder Structure
-
-Film-Review-Sentiment-Analysis/
-│
-├── 1 Raw Data/
-│ ├── sentiment_train.csv # Training dataset
-│ └── sentiment_test.csv # Test dataset
-│
-├── 2 Codes/
-│ └── MMA865_SamHossain.ipynb # Main Jupyter Notebook (cleaned & commented)
-│
-├── README.md # This file
-└── requirements.txt (optional) # Dependency list (to be added if needed)
-
-
----
-
-## 🚀 Quick Start
-
-### 🧰 Prerequisites
-
-Install dependencies using pip:
-
-
-pip install pandas numpy scikit-learn joblib
-
-
-
----
-
-▶️ Run the Notebook
-
-Open 2 Codes/MMA865_SamHossain.ipynb in Jupyter or Google Colab.
-
-The notebook will:
-
-Load data from 1 Raw Data/
-
-Clean and vectorize the text
-
-Train a Logistic Regression model using GridSearchCV
-
-Evaluate performance (Accuracy, F1 Score)
-
-Save model and vectorizer for deployment
-
-Perform error analysis on misclassified samples
----
-
-📊 Results
-
-Accuracy: ~78%
-
-F1 Score: ~78%
-
-Model: Logistic Regression with TF-IDF features
-
-Best Parameters: C=10, solver='liblinear'
-
-💡 Key Observations:
-
-Handles clear sentiment well
-
-Struggles with:
-
-Negations ("wasn't terrible")
-
-Figurative language ("the camera likes her")
-
-Subtle or ambiguous tones
-
-🧠 What I Learned
-
-Complete NLP pipeline for binary text classification
-
-Text preprocessing: lowercasing, punctuation removal, whitespace cleanup
-
-TF-IDF vectorization for turning text into machine-readable features
-
-Hyperparameter tuning using GridSearchCV
-
-Model evaluation using precision, recall, F1 score, and error analysis
-
-Saved model/vectorizer for future Streamlit dashboard deployment
-
-💻 What’s Next
-
-✅ Turn this into a web app using Streamlit or Gradio
-
-✅ Add saved model files (sentiment_model.pkl, tfidf_vectorizer.pkl)
-
-📈 Explore deep learning alternatives (e.g., BERT)
-
-🎯 Improve negation handling and sarcasm detection
-
-📜 License
-
-This project is open source under the MIT License
-.
-
-📫 Contact
-
-Sam Hossain
-Data × AI/ML × Finance | MMA (Smith School of Business, Queen’s University)
-📧 Email: [Your Email Here]
-🌐 Portfolio: https://hossainsam.ca
-
-🔗 LinkedIn: https://linkedin.com/in/sam-hossain
-
-
----
-
-## ✅ Next Steps for You
-
-1. Create a new file `README.md` inside the root of your GitHub folder and paste the above content.
-2. (Optional) Create `requirements.txt` by running:
-
-```bash
-pip freeze > requirements.txt
-'''
-```
-
-----
-
-
-
-
-
-
-
-
-
 <p align="center">
   <img src="3 Assets/Banner.png" width="100%">
 </p>
 
-# 🎬 Film Review Sentiment Classifier with Logistic Regression
+# 🎬 Film Review Sentiment Analysis
 
 *Classifies movie reviews as positive or negative using machine learning and TF-IDF vectorization on curated sentiment-labeled datasets.*
 
@@ -155,6 +16,7 @@ pip freeze > requirements.txt
 ---
 
 ## 👥 Authors
+
 **Sam Hossain**
 
 ---
@@ -162,6 +24,7 @@ pip freeze > requirements.txt
 ## 🔍 Problem Statement
 
 **Goal:**  
+
 Build a machine learning model to classify film reviews into positive or negative sentiment based on the textual content.
 
 **Challenges Addressed:**
@@ -195,6 +58,11 @@ This project applies a complete natural language processing (NLP) workflow to a 
 
 <p align="center">
   <img src="3 Assets/Model1.png" width="80%">
+  <img src="3 Assets/Model2.png" width="80%">
+  <img src="3 Assets/Model3.png" width="80%">
+  <img src="3 Assets/Model4.png" width="80%">
+  <img src="3 Assets/Model5.png" width="80%">
+  <img src="3 Assets/Model6.png" width="80%">
 </p>
 
 
@@ -215,11 +83,8 @@ This project applies a complete natural language processing (NLP) workflow to a 
 * Misclassifications often involve negations, sarcasm, or subtle sentiment
 
 <p align="center">
-  <img src="3 Assets/Findings1.png" width="80%">
-  <img src="3 Assets/Findings2.png" width="80%">
-  <img src="3 Assets/Findings3.png" width="80%">
-  <img src="3 Assets/Findings4.png" width="80%">
-  <img src="3 Assets/Findings5.png" width="80%">
+  <img src="3 Assets/Model5.png" width="80%">
+  <img src="3 Assets/Model6.png" width="80%">
 </p>
 
 ---
@@ -229,26 +94,6 @@ This project applies a complete natural language processing (NLP) workflow to a 
 * Use deep learning models like BERT for contextual understanding
 * Enhance negation and sarcasm detection via custom rules or lexicons
 * Build a real-time app with Streamlit or Gradio using the saved model
-
-<p align="center">
-  <img src="3 Assets/Recommendation1.png" width="80%">
-  <img src="3 Assets/Recommendation2.png" width="80%">
-  <img src="3 Assets/Recommendation3.png" width="80%">
-  <img src="3 Assets/Recommendation4.png" width="80%">
-  <img src="3 Assets/Recommendation5.png" width="80%">
-</p>
-
----
-
-## 📊 Output Dashboard
-
-<p align="center">
-  <img src="3 Assets/Dashboard1.png" width="80%">
-  <img src="3 Assets/Dashboard2.png" width="80%">
-  <img src="3 Assets/Dashboard3.png" width="80%">
-  <img src="3 Assets/Dashboard4.png" width="80%">
-  <img src="3 Assets/Dashboard5.png" width="80%">
-</p>
 
 ---
 
