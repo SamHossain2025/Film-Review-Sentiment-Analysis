@@ -124,7 +124,10 @@ Data × AI/ML × Finance | MMA (Smith School of Business, Queen’s University)
 
 ```bash
 pip freeze > requirements.txt
+'''
+```
 
+----
 
 
 
