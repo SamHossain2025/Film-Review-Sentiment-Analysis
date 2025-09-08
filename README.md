@@ -34,8 +34,6 @@ Build a machine learning model to classify film reviews into positive or negativ
 - Model tuning and cross-validation
 - Handling subtle and ambiguous sentiment
 
-This project applies a complete natural language processing (NLP) workflow to a real-world dataset of movie reviews. It begins by cleaning raw text, then vectorizes the data using TF-IDF, and trains a Logistic Regression classifier with hyperparameter tuning. Evaluation metrics like Accuracy and F1 Score are used to measure performance. The model is also analyzed for errors and saved for future deployment as a Streamlit-based review analyzer.
-
 ---
 
 ## 🔧 Workflow
