@@ -60,7 +60,6 @@ This project applies a complete natural language processing (NLP) workflow to a 
   <img src="3 Assets/Model1.png" width="80%">
   <img src="3 Assets/Model2.png" width="80%">
   <img src="3 Assets/Model3.png" width="80%">
-  <img src="3 Assets/Model4.png" width="80%">
 </p>
 
 
@@ -71,6 +70,10 @@ This project applies a complete natural language processing (NLP) workflow to a 
 - Evaluate predictions on the test set
 - Save trained model and vectorizer (`joblib`)
 - Analyze 5 most interesting misclassifications
+
+<p align="center">
+  <img src="3 Assets/Model4.png" width="80%">
+</p>
 
 ---
 
