@@ -61,8 +61,6 @@ This project applies a complete natural language processing (NLP) workflow to a 
   <img src="3 Assets/Model2.png" width="80%">
   <img src="3 Assets/Model3.png" width="80%">
   <img src="3 Assets/Model4.png" width="80%">
-  <img src="3 Assets/Model5.png" width="80%">
-  <img src="3 Assets/Model6.png" width="80%">
 </p>
 
 
